@@ -1,6 +1,11 @@
 # ReCall
 An experiment with AI and dance. Under construction
 
+1. VideoDownload folder contains a python code to download youtube video.
+2. Needs a local http server to serve file
+3. https://observablehq.com/d/45e6162100bb65ed contains code to to pose analysis
+
+
 ## To Do:
 1. Identify a list (maybe 20) solo dance videos from youtube. Use pytube to capture video streams, also grab comments and descriptions.
 2. Use MoveNet https://observablehq.com/@randomfractals/tensorflow-movenet-intro to grab pose data
