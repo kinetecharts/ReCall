@@ -5,6 +5,17 @@ An experiment with AI and dance. Under construction
 2. Needs a local http server to serve file
 3. https://observablehq.com/d/45e6162100bb65ed contains code to to pose analysis
 
+## Setup ReCall server
+1. Clone the repository to your project folder and go to the root folder
+2. Start local http server in the root folder
+
+## Setup Video folder
+You will need to start another http server to serve videos
+
+1. Prerequisitie : Install npm file upload ser using the following command -> npm install files-upload-server -g
+2. Go to the "files" folder (The folder contains a video named "" that is used by the main code)
+3. Start the webserver using the following command -> http-server
+4. This will start the webserver to serve vides
 
 ## To Do:
 1. Identify a list (maybe 20) solo dance videos from youtube. Use pytube to capture video streams, also grab comments and descriptions.
